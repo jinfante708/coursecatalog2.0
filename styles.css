@@ -1,0 +1,217 @@
+.button {
+  background-color: #339cff;
+  border: none;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.4), 0 20px 15px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+  color: white;
+  /* padding: 150px 10px; */
+  height: 320px;
+  width: 175px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 22.5px;
+  cursor: pointer;
+}
+
+.welcome {
+  font-size: 16px;
+}
+
+.padded_bullet {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  text-align: center;
+  border-right: 2.5px solid black;
+}
+
+.rightmost-column {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.column-body {
+  float: left;
+  border-right: 2.5px solid black;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left
+}
+
+.rightmost-column-body {
+  float: left;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left
+}
+
+.wide-column {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  border-right: 2.5px solid black;
+}
+
+.wide-rightmost-column {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.wide-column-body {
+  float: left;
+  border-right: 2.5px solid black;
+  width: 33.3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left
+}
+
+.wide-rightmost-column-body {
+  float: left;
+  width: 33.3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.alphabetbar {
+  text-align: center;
+  font-size: 20px;
+  color: #339cff;
+}
+
+.lettersections {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.letterheader {
+  font-size: 40px;
+  color: #339cff;
+}
+
+.linebreak {
+  /* border: 0; */
+  height: 3px;
+  /* padding-right: 30px; */
+  width: 100%;
+  background: #339cff;
+  /* background-image: linear-gradient(to right, #ccc, #339cff, #ccc); */
+}
+
+.back {
+  font-size: 20px;
+  color: black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* .inner_column {
+  text-align: left;
+} */
+
+
+.left {
+    float: left;
+    background: #262626;
+    padding:10px;
+    width:150px;
+    height:100%;
+    color:white;
+}
+
+.temperature {
+    margin-top:30px;
+    margin-bottom:5px;
+    font-size:32px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.location {
+    font-size: 18px;
+    width:100%;
+    width:150px;
+}
+
+.right {
+    float: right;
+    width:130px;
+    height:100%;
+}
+
+.top {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background: #cec;
+}
+
+.top img {
+    margin-top: 15px;
+}
+
+.bottom {
+    height: 70px;
+    background: #669999;
+    color: white;
+    font-weight: bold;
+}
+
+.humidity {
+    padding: 8px;
+}
+
+.wind {
+}
